@@ -1,0 +1,193 @@
+*{
+	margin: 0;
+	padding:0;
+}	
+
+main{
+	margin-top: 100px;
+
+	h2{
+	text-align: center;
+	font-size: 2.4rem;
+	font-family: 'Amiri', serif;
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.h2hidden{
+display: none;
+}
+
+h3{
+	padding-top: 30px;
+	padding-bottom: 15px;
+	font-size: 1.6rem;
+}
+}
+
+
+header{
+
+	.navbar-custom {
+    background-image: linear-gradient(to bottom, #F3FAB2, lightyellow);
+}
+
+.titleheader{
+	font-size: 2rem;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 3px;
+	color: black;	
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-color: black;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: black;
+} 
+
+
+.mi_logo{
+	width: 60px;
+	height: 60px;
+}
+
+li a{
+	text-decoration: none;
+	color:black;
+	font-family: 'Roboto', sans-serif, medium;}
+	
+a:hover{
+	font-style: italic;	
+}
+}
+
+
+footer{
+	border-top: 1px black solid;
+	background-image: linear-gradient(to bottom, #F3FAB2, lightyellow);
+	margin-top: 20px;
+	.logoRedSocial{
+	width: 25px;
+	height: 25px;
+}
+	.footerSite {
+  	font-size: 0.9rem;
+ 	font-style: italic; 
+
+ 	.menuFooter{
+	 font-size: 0.9rem;	
+}
+}
+}
+
+ body{
+	background-color: #F3FAB2;
+
+	aside{
+	width: 100%;
+	height: 400px;
+
+	#imagenAside{
+	width: 100%;
+	height: 100%;
+}
+}
+
+.seccionServicios__serviciosBrindados {
+  position: relative;
+  width: 100%;
+  border: 1px black solid;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: gray;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.seccionServicios__serviciosBrindados:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  color: yellow;
+  font-size: 28px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+}
+
+
+.seccionMarcasTrabajo__logosMarcas__imagenes{
+	width: 220px;
+	height:220px;
+	border: black solid 1px;
+	margin: 15px;
+}
+
+.seccionMarcasTrabajo__logosMarcas__imagenes:hover{
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	box-shadow: 0px 0px 15px 15px grey;
+	-webkit-box-shadow: 0px 0px 15px 15px grey;
+}
+
+form {
+	background-color: rgba(245,245,220, 0.6);
+	text-align: center;
+}
+
+.parrafoServicio{
+	text-align: justify;
+}
+
+
+.fotoTrabajoRealizado{
+	width: 33%;
+	padding-top: 20px;
+}
+
+.parrafoTestimonios{
+	padding-top: 10px;
+	text-align: justify;
+}
+
+.equipotrabajo{
+	.parrafoPerfilEquipo{
+	border: 1px solid black;
+	height: 200px;
+	text-align: justify;
+}
+.fotoIntegrantes{
+	width: 100%;
+	height: 200px;
+	border: 1px solid black;
+}
+
+}
